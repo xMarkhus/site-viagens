@@ -58,8 +58,13 @@ Para conferir o projeto, basta seguir os passos abaixo:
 
 Aqui está um **preview** rápido do layout do projeto em diferentes dispositivos:
 
+### Mobile Preview:
 ![Mobile Preview](./screenshots/mobile-preview.png)
+
+### Tablet Preview:
 ![Tablet Preview](./screenshots/tablet-preview.png)
+
+### Desktop Preview:
 ![Desktop Preview](./screenshots/desktop-preview.png)
 
 ## 🎯 Acessibilidade
