@@ -1,0 +1,429 @@
+.cabecalho__container {
+    background-color: var(--preto);
+    padding: 37px 24px 37px 24px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__logo--icone-mobile,
+.cabecalho__navegacao--mobile {
+    display: block;
+}
+
+.cabecalho__logo--icone,
+.cabecalho__navegacao {
+    display: none;
+}
+
+.banner__descricao {
+    padding: 88px 24px 88px 24px;
+}
+
+.banner__descricao--texto,
+.destinos__item--descricao,
+.pagamento__condicoes--detalhes {
+    font-weight: 400;
+    text-align: center;
+    line-height: 32px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
+    gap: 88px;
+    margin-bottom: 88px;
+}
+
+.depoimentos__titulo,
+.pagamento__titulo,
+.destinos__titulo,
+.busca__titulo,
+.ofertas__titulo,
+.categorias__titulo {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.depoimentos__titulo--sublinhado,
+.pagamento__titulo--sublinhado,
+.destinos__titulo--sublinhado,
+.busca__titulo--sublinhado,
+.ofertas__titulo--sublinhado,
+.categorias__titulo--sublinhado {
+    width: 180px;
+    height: 4px;
+    background: var(--vermelho);
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.ofertas__cards--grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ofertas__cards--item {
+    display: flex;
+    padding: 24px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 24px 32px;
+    color: var(--branco);
+    flex: 1 0 calc(50% - 48px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ofertas__cards--japao {
+    background-image: url("../img/tokyo.png");
+}
+
+.ofertas__cards--san-andreas {
+    background-image: url("../img/san-andreas.png");
+}
+
+.ofertas__cards--paraiba {
+    background-image: url("../img/paraiba.png");
+}
+
+.ofertas__cards--manaus {
+    background-image: url("../img/manaus.png");
+}
+
+.ofertas__card--destino-tipo {
+    color: var(--branco, #FFF);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.ofertas__card--destino-nome {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ofertas__card--preco {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.destinos__item--botao,
+.ofertas__card--botao {
+    border-radius: 8px;
+    background: var(--vermelho, #B81515);
+    padding: 16px 48px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.destinos__item--botao-texto,
+.ofertas__card--botao-texto {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--branco, #FFF);
+}
+
+.categorias__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.categorias__cards--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--neutral-c);
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+    gap: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.categorias__cards--texto,
+.destinos__item--nome,
+.pagamento__condicoes--destaque {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.destinos__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.destinos__item {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.pagamento__condicoes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.pagamento__imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.pagamento__imagens--grupo {
+    display: flex;
+    gap: 24px;
+}
+
+.depoimentos__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.depoimentos__texto {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.depoimentos__item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.depoimentos__autor {
+    display: flex;
+    gap: 24px;
+}
+
+.depoimentos__autor--foto {
+    width: 100px;
+    height: 100px;
+}
+
+.depoimentos__autor--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.depoimentos__autor--nome {
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.pre-footer__image {
+    vertical-align: bottom;
+}
+
+.footer__container {
+    background-color: var(--preto);
+    padding: 32px 24px 32px 24px;
+}
+
+.footer__logo-icon {
+    width: 161.5;
+    height: 60px;
+}
+
+.footer__info-container {
+    margin-top: 16px;
+}
+
+.footer__info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__text-info,
+.footer__social-media-text {
+    color: var(--neutral-c);
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footer__social-media-container {
+    margin-top: 32px;
+}
+
+.footer__social-media-icons {
+    margin: 16px;
+}
+
+@media (min-width: 834px) {
+    
+
+
+    .ofertas__cards,
+    .categorias__cards {
+        display: grid;   
+    }
+
+    .categorias__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cabecalho {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .cabecalho__logo--icone-mobile,
+    .cabecalho__navegacao--mobile {
+    display: none;
+    }
+
+    .cabecalho__logo--icone,
+    .cabecalho__navegacao {
+    display: block;
+    }
+
+    .cabecalho__container {
+        padding: 37px 120px 37px 120px;
+    }
+
+    .cabecalho {
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .cabecalho__logo--icone {
+        width: 260px;
+        height: 64px;
+    }
+
+    .cabecalho__navegacao {
+        display: flex;
+        gap: 40px;
+    }
+
+    .cabecalho__navegacao--item {
+        color: var(--branco);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .banner__descricao {
+        padding: 112px 120px 112px 120px;
+    }
+
+    .banner__descricao--texto {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .container {
+        padding-left: 120px;
+        padding-right: 120px;
+        gap: 112px;
+        margin-bottom: 112px;
+    }
+
+    .depoimentos__titulo,
+    .pagamento__titulo,
+    .destinos__titulo,
+    .busca__titulo,
+    .ofertas__titulo,
+    .categorias__titulo {
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 64px;
+    }
+
+    .categorias__cards,
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ofertas__card--destino-nome {
+        font-size: 48px;
+        line-height: 58.51px;
+    }
+
+    .ofertas__card--preco {
+        font-size: 40px;
+        line-height: 48.76px;
+    }
+
+    .destinos__lista,
+    .pagamento__condicoes,
+    .depoimentos__wrapper {
+        flex-direction: row;
+    }
+
+    .pagamento__condicoes--descricao {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .pagamento__condicoes--destaque,
+    .pagamento__condicoes--detalhes {
+        text-align: left;
+    }
+
+    .footer {
+        padding: 52px 120px 52px 120px;
+        justify-content: space-between;
+    }
+
+    .footer__logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+    }
+
+    .footer__text-info {
+        font-size: 20px;
+        text-align: left;
+    }
+}   
